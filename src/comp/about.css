@@ -1,0 +1,23 @@
+.about{
+    display: flex;
+    align-items: center;justify-content: space-between;
+    padding: 10px;
+}
+
+.btn{
+    border: 3px solid red;
+    
+}
+
+.carousel .slider-wrapper {
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+    transition: height .15s ease-in;
+    height: 70vh;
+    position: relative;
+}
+.carousel .thumbs {
+    
+    display: none;
+}
